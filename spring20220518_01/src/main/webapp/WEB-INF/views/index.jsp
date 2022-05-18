@@ -13,5 +13,6 @@
 <body>
     <h2>index.jsp</h2>
     <a href="save-form">save-form 페이지로 이동</a>
+    <a href="findAll">리스트페이지 출력</a>
 </body>
 </html>
