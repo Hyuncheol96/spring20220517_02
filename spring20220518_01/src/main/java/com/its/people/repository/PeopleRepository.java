@@ -27,6 +27,7 @@ public class PeopleRepository {
     }
 
     public int save1(PeopleDTO peopleDTO) {
+
         return sql.insert("People.save", peopleDTO);
     }
 

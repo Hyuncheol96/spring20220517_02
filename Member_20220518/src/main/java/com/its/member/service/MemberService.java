@@ -12,18 +12,21 @@ public class MemberService {
 
     @Autowired
     private MemberRepository memberRepository;
-
-    public void save(String memberId, String memberPassword, String memberName, int memberAge, String memberPhone) {
-        memberRepository.save(memberId, memberPassword, memberName, memberAge, memberPhone);
-    }
-    public boolean save1(MemberDTO memberDTO) {
-        int saveResult = memberRepository.save1(memberDTO);
+    public boolean save(MemberDTO memberDTO) {
+        int saveResult = memberRepository.save(memberDTO);
         if (saveResult > 0) {
             return true;
         } else {
             return false;
         }
     }
+
+
+    public MemberDTO login(MemberDTO memberDTO) {
+        MemberDTO loginMember = memberRepository.login(memberDTO);
+        return loginMember;
+    }
+
 
     public List<MemberDTO> findAll() {
         List<MemberDTO> memberDTOList = memberRepository.findAll();

@@ -1,4 +1,4 @@
-package com.its.people.Controller;
+package com.its.people.controller;
 
 import com.its.people.dto.PeopleDTO;
 import com.its.people.service.PeopleService;
@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import java.text.AttributedString;
 import java.util.List;
 
 @Controller

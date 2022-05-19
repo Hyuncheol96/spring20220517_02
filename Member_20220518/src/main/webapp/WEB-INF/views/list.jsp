@@ -14,6 +14,7 @@
 <body>
     <h2>list.jsp</h2>
     <c:forEach var="member" items="${memberList}">
+        ${member.id}
         ${member.memberId}
         ${member.memberPassword}
         ${member.memberName}

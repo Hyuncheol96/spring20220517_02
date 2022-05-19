@@ -12,7 +12,7 @@
 </head>
 <body>
     <h2>save-form.jsp</h2>
-    <form action="save2" method="post"><br>
+    <form action="save" method="post"><br>
         <input type="text" name="name" placeholder="name"><br>
         <input type="text" name="age" placeholder="age"><br>
         <input type="submit" value="전송">

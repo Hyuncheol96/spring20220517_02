@@ -12,8 +12,12 @@
 </head>
 <body>
     <h2>index.jsp</h2>
-    <a href="save">save 페이지</a>
-    <a href="login">login 페이지</a>
-    <a href="list">list 페이지</a>
+    <a href="save">save 페이지</a><br>
+    <a href="login">login 페이지</a><br>
+    <a href="/findAll">list 페이지</a><br>
+
+    로그인 회원 정보: ${loginMember}
+    세션에 담은 memberId: ${sessionScope.loginMemberId}
+    세션에 담은 id: ${sessionScope.loginId}
 </body>
 </html>
