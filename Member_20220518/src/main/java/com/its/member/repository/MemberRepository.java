@@ -19,7 +19,12 @@ public class MemberRepository {
         return sql.selectOne("Member.save", memberDTO);
     }
     public List<MemberDTO> findAll() {
+
         return sql.selectList("Member.findAll");
+    }
+
+    public  MemberDTO findById(Long id) {
+        return sql.selectOne("Member.detail", id);
     }
 
 

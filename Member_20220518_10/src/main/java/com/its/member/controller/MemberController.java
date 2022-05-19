@@ -8,40 +8,21 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpSession;
-import java.util.List;
 
 @Controller
 public class MemberController {
-
+    @GetMapping("/")
+    public String index() {
+        return "index";
+    }
     @Autowired
     private MemberService memberService;
-
     @GetMapping("save")
     public String saveForm() {
         return "save";
     }
-
-
-//    @PostMapping("save1")
-//    public String save1(@RequestParam("memberId") String memberId,
-//                        @RequestParam("memberPassword") String memberPassword,
-//                        @RequestParam("memberName") String memberName,
-//                        @RequestParam("memberAge") int memberAge,
-//                        @RequestParam("memberPhone") String memberPhone) {
-//        System.out.println("memberId = " + memberId + "memberPassword = " + memberPassword + "memberName = " + memberName + "memberAge = " + memberAge + "member Phone = " + memberPhone);
-//        MemberDTO memberDTO = new MemberDTO();
-//        memberDTO.setMemberId(memberId);
-//        memberDTO.setMemberPassword(memberPassword);
-//        memberDTO.setMemberName(memberName);
-//        memberDTO.setMemberAge(memberAge);
-//        memberDTO.setMemberPhone(memberPhone);
-//        memberService.save1(memberDTO);
-//        return null;
-//    }
-
     @PostMapping("save")
     public String save(@ModelAttribute MemberDTO memberDTO) {
         boolean saveResult = memberService.save(memberDTO);
@@ -72,18 +53,4 @@ public class MemberController {
         }
     }
 
-    @GetMapping("/findAll")
-    public String findAll(Model model) {
-        List<MemberDTO> memberDTOList = memberService.findAll();
-        model.addAttribute("memberList", memberDTOList);
-        return "list";
-    }
-
-    @GetMapping("/detail")
-    public String findById(@RequestParam("id") Long id, Model model) {
-        System.out.println("id = " + id);
-        MemberDTO memberDTO = memberService.findById(id);
-        model.addAttribute("member", memberDTO);
-        return "detail";
-    }
 }

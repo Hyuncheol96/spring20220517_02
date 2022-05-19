@@ -10,33 +10,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2d51e12-3200-4888-bb6a-9eb8d50856dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Member_20220518/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Member_20220518_01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/root-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518/src/main/java/com/its/member/Controller/MmeberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Member_20220518/src/main/java/com/its/member/Controller/MemeberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518/src/main/java/com/its/member/dto/MemberDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Member_20220518/src/main/java/com/its/member/dto/MemberDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518/src/main/webapp/WEB-INF/views/datail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/its/member/DTO/MemberDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/its/member/Repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/its/member/Service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/its/member/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/memberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/save.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/Member_20220518_10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/src/main/java/com/its/member/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/src/main/java/com/its/member/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/src/main/java/com/its/member/dto/MemberDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/src/main/java/com/its/member/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/src/main/java/com/its/member/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/src/main/resources/mapper/memberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/src/main/webapp/WEB-INF/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/src/main/webapp/WEB-INF/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/src/main/webapp/WEB-INF/views/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/src/main/webapp/WEB-INF/views/save.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Member_20220518_10/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Member_20220518/src/main/java/com/its/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Member_20220518/src/main/java/com/its/member/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Member_20220518/src/main/java/com/its/member/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Member_20220518/src/main/java/com/its/member/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Member_20220518/src/main/java/com/its/member/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Member_20220518/src/main/java/com/its/member/service/MemberService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Member_20220518/src/main/resources/mapper/memberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Member_20220518/src/main/resources/mapper/memberMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518/src/main/webapp/WEB-INF/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Member_20220518/src/main/webapp/WEB-INF/root-context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Member_20220518/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Member_20220518/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518/src/main/webapp/WEB-INF/views/login-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Member_20220518/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518/src/main/webapp/WEB-INF/views/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Member_20220518/src/main/webapp/WEB-INF/views/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518/src/main/webapp/WEB-INF/views/save-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Member_20220518/src/main/webapp/WEB-INF/views/save.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring20220517_01" beforeDir="false" afterPath="$PROJECT_DIR$/../spring20220517_01" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring20220518_01/src/main/webapp/WEB-INF/views/save-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring20220518_01/src/main/webapp/WEB-INF/views/save-form.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +67,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Tag Library Descriptor" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -78,7 +99,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/development_KHC/source/spring_framework/spring20220516_01",
-    "settings.editor.selected.configurable": "File.Encoding"
+    "settings.editor.selected.configurable": "File.Encoding",
+    "spring.configuration.checksum": "a7a6cbd12809fbca103100209cc1b901"
   }
 }]]></component>
   <component name="RunManager">
@@ -94,7 +116,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="0411b791-9b0d-476e-b65c-6b3e8c2b87a1" />
-        <option name="HTTP_PORT" value="8088" />
+        <option name="HTTP_PORT" value="8091" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -181,6 +203,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652924316680</updated>
       <workItem from="1652924318305" duration="677000" />
+      <workItem from="1652942165146" duration="2486000" />
     </task>
     <servers />
   </component>
