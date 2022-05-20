@@ -5,15 +5,24 @@
 
 <mapper namespace="Member">
     <insert id="save" parameterType="member">
-        insert into member_table(id, memberId, memberPassword, memberName, memberAge, memberPhone) values (#{id}, #{memberId}, #{memberPassword}, #{memberName}, #{memberAge}, #{memberPhone})
+        insert into member_table(memberId, memberPassword, memberName, memberAge, memberPhone)
+        values (#{memberId}, #{memberPassword}, #{memberName}, #{memberAge}, #{memberPhone})
     </insert>
 
     <select id="login" parameterType="member" resultType="member">
         select * from member_table where memberId=#{memberId} and memberPassword=#{memberPassword}
     </select>
+
     <select id="findAll" resultType="member">
         select * from member_table
     </select>
+
+    <select id="findById" parameterType="Long" resultType="member">
+        select * from member_table where id=#{id}
+    </select>
+    <delete id="delete" parameterType="Long">
+        delete * from member_table where id = #{id}
+    </delete>
 </mapper>
 
 

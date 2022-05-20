@@ -5,8 +5,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor // 기본생성자
-@AllArgsConstructor // 모든 필드를 매개변수로 하는 생성자
+@NoArgsConstructor
+@AllArgsConstructor
 public class MemberDTO {
     private Long id;
     private String memberId;
@@ -14,6 +14,4 @@ public class MemberDTO {
     private String memberName;
     private int memberAge;
     private String memberPhone;
-
-
 }

@@ -9,7 +9,6 @@ import java.util.List;
 
 @Service
 public class MemberService {
-
     @Autowired
     private MemberRepository memberRepository;
     public boolean save(MemberDTO memberDTO) {
@@ -21,14 +20,14 @@ public class MemberService {
         }
     }
 
-
     public MemberDTO login(MemberDTO memberDTO) {
         MemberDTO loginMember = memberRepository.login(memberDTO);
         return loginMember;
     }
 
-
     public List<MemberDTO> findAll() {
+//        List<MemberDTO> memberDTOList = memberRepository.findAll();
+//        return memberDTOList;
         return memberRepository.findAll();
     }
 
@@ -36,4 +35,30 @@ public class MemberService {
         return memberRepository.findById(id);
     }
 
+    public boolean delete(Long id) {
+        int deleteResult = memberRepository.delete(id);
+        if (deleteResult > 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public boolean update(MemberDTO memberDTO) {
+        int updateResult = memberRepository.update(memberDTO);
+        if (updateResult > 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public String duplicateCheck(String memberId) {
+        String checkResult = memberRepository.duplicateCheck(memberId);
+        if (checkResult == null) {
+            return "ok";
+        } else {
+            return "no";
+        }
+    }
 }

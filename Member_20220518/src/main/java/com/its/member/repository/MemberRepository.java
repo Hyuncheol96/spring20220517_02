@@ -11,35 +11,33 @@ import java.util.List;
 public class MemberRepository {
     @Autowired
     private SqlSessionTemplate sql;
-
     public int save(MemberDTO memberDTO) {
         return sql.insert("Member.save", memberDTO);
     }
+
     public MemberDTO login(MemberDTO memberDTO) {
-        return sql.selectOne("Member.save", memberDTO);
+        return sql.selectOne("Member.login", memberDTO);
     }
     public List<MemberDTO> findAll() {
-
         return sql.selectList("Member.findAll");
     }
 
-    public  MemberDTO findById(Long id) {
-        return sql.selectOne("Member.detail", id);
+    public MemberDTO findById(Long id) {
+
+        return sql.selectOne("Member.findById", id);
     }
 
+    public int delete(Long id) {
 
+        return sql.delete("Member.delete", id);
+    }
+
+    public int update(MemberDTO memberDTO) {
+
+        return sql.update("Member.update", memberDTO);
+    }
+
+    public String duplicateCheck(String memberId) {
+        return sql.selectOne("Member.duplicate", memberId);
+    }
 }
-
-//    public void save(String memberId, String memberPassword, String memberName, int memberAge, String memberPhone) {
-//        MemberDTO memberDTO = new MemberDTO();
-//        memberDTO.setMemberId(memberId);
-//        memberDTO.setMemberPassword(memberPassword);
-//        memberDTO.setMemberName(memberName);
-//        memberDTO.setMemberAge(memberAge);
-//        memberDTO.setMemberPhone(memberPhone);
-//
-//        System.out.println("MemberRepository.save");
-//        System.out.println("memberId = " + memberId + "memberPassword = " + memberPassword + "memberName = " + memberName + "memberAge = " + memberAge + "member Phone = " + memberPhone);
-//        sql.insert("Member.save", memberDTO);
-//    }
-
