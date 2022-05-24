@@ -10,33 +10,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f63d90c7-f427-4017-9c60-5c889f833843" name="Changes" comment="05.20 커밋">
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/Board_20220523.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/java/com/its/board/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/java/com/its/board/controller/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/java/com/its/board/dto/BoardDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/java/com/its/board/repository/BoardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/java/com/its/board/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/resources/mapper/boardMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/views/board/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/views/board/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/views/board/passwordCheck.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/views/board/save.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/views/board/saveFile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/views/board/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/views/layout/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/.idea/libraries/Spring_5_2_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/Member_20220518_10.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/src/main/java/com/its/member/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/src/main/java/com/its/member/controller/MemberController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/src/main/java/com/its/member/dto/MemberDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/src/main/java/com/its/member/repository/MemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/src/main/java/com/its/member/service/MemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/src/main/resources/mapper/memberMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/src/main/resources/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/src/main/webapp/WEB-INF/root-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/src/main/webapp/WEB-INF/servlet-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/src/main/webapp/WEB-INF/views/main.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/src/main/webapp/WEB-INF/views/save.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Member_20220518_10/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring20220517_01" beforeDir="false" afterPath="$PROJECT_DIR$/../spring20220517_01" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,6 +189,11 @@
       <updated>1653014709185</updated>
       <workItem from="1653014710573" duration="5911000" />
       <workItem from="1653026600851" duration="3017000" />
+      <workItem from="1653031594478" duration="73000" />
+      <workItem from="1653262725446" duration="723000" />
+      <workItem from="1653263500571" duration="14750000" />
+      <workItem from="1653294050028" duration="108000" />
+      <workItem from="1653349889192" duration="6860000" />
     </task>
     <task id="LOCAL-00001" summary="05.20 커밋">
       <created>1653030686520</created>
@@ -193,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653030686520</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="05.20 커밋">
+      <created>1653031618592</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653031618592</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
