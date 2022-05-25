@@ -1,6 +1,7 @@
 package com.its.board.controller;
 
 import com.its.board.dto.BoardDTO;
+import com.its.board.dto.PageDTO;
 import com.its.board.service.BoardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -24,11 +25,24 @@ public class BoardController {
     }
     // 글쓰기 처리
 //    @PostMapping("/board/save")   // RequestMapping 미적용
+
+//    @PostMapping("/save")  // RequestMapping 적용  // 일반 글 목록으로 가는 소스
+//    public String save(@ModelAttribute BoardDTO boardDTO) {
+//        boolean saveResult = boardService.save(boardDTO);
+//        if(saveResult) {
+//            return "redirect: /board/findAll";  // 이 주소로 가라는 표시
+//        } else {
+//            return "/board/save-fail";   // save-fail 이라는 jsp 파일을 찾으라는 표시
+//        }
+//    }
     @PostMapping("/save")  // RequestMapping 적용
     public String save(@ModelAttribute BoardDTO boardDTO) {
-        boolean saveResult = boardService.save(boardDTO);
-        if(saveResult) {
-            return "redirect: /board/findAll";  // 이 주소로 가라는 표시
+        boolean result = boardService.save(boardDTO);
+        if(result) {
+//            return "redirect:/board/findAll"; // => /board/findAll 주소 요청
+            // 글쓰기 성공 후 페이징 목록이 보이게
+//            return "redirect:/board/findAll";  // 이 주소로 가라는 표시
+            return "redirect:/board/paging";
         } else {
             return "/board/save-fail";   // save-fail 이라는 jsp 파일을 찾으라는 표시
         }
@@ -42,12 +56,17 @@ public class BoardController {
         return "/board/list";
     }
 
+    // 상세조회
     @GetMapping("/detail")
-    public String findById(@RequestParam("id") Long id, Model model) {
+    public String findById(@RequestParam("id") Long id, Model model,
+                           @RequestParam(value="page", required = false, defaultValue = "1") int page) {
         BoardDTO boardDTO = boardService.findById(id);
         model.addAttribute("board", boardDTO);
+        model.addAttribute("page", page);
         return "/board/detail";
     }
+
+    // 비밀번호 체크페이지
     @GetMapping("/passwordCheck")
     public String passwordCheck(@RequestParam("id") Long id, Model model) {
         BoardDTO boardDTO = boardService.findById(id);
@@ -69,6 +88,8 @@ public class BoardController {
         model.addAttribute("boardUpdate", boardDTO);
         return "board/update";
     }
+
+    // 수정처리
     @PostMapping("/update")
     public String update(@ModelAttribute BoardDTO boardDTO) {
         boardService.update(boardDTO);
@@ -86,6 +107,18 @@ public class BoardController {
     public String saveFile(@ModelAttribute BoardDTO boardDTO) throws IOException {
         boardService.saveFile(boardDTO);
         return "redirect:/board/findAll";
+    }
+
+    @GetMapping("/paging")
+//  /board/paging?page=2
+//  required=false로 하면 /board/paging 요청도 가능
+//  별도의 페이지 값을 요청하지 않으면 첫 페이지(page=1)를 보여주자.
+    public String paging(@RequestParam(value="page", required=false, defaultValue="1") int page, Model model) {
+        List<BoardDTO> boardList = boardService.pagingList(page);
+        PageDTO paging = boardService.paging(page);
+        model.addAttribute("boardList", boardList);
+        model.addAttribute("paging", paging);
+        return "board/pagingList";
     }
 
 }
