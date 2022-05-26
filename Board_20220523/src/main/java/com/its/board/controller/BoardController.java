@@ -39,6 +39,7 @@ public class BoardController {
 //            return "/board/save-fail";   // save-fail 이라는 jsp 파일을 찾으라는 표시
 //        }
 //    }
+    // 글쓰기처리
     @PostMapping("/save")  // RequestMapping 적용
     public String save(@ModelAttribute BoardDTO boardDTO) {
         boolean result = boardService.save(boardDTO);
@@ -64,7 +65,8 @@ public class BoardController {
     @GetMapping("/detail")
     public String findById(@RequestParam("id") Long id, Model model,
                            @RequestParam(value="page", required = false, defaultValue = "1") int page) {
-        BoardDTO boardDTO = boardService.findById(id);
+        BoardDTO boardDTO = boardService.findById(id); // 방법 1
+//        model.addAttribute("board", boardService.findById(id)); // 방법 2
         model.addAttribute("board", boardDTO);
         model.addAttribute("page", page);
         // 댓글 목록도 가져가야 함.
@@ -116,13 +118,14 @@ public class BoardController {
         return "redirect:/board/findAll";
     }
 
+    // 페이징 처리
     @GetMapping("/paging")
-//  /board/paging?page=2
+//  /board/paging?page=1
 //  required=false로 하면 /board/paging 요청도 가능
 //  별도의 페이지 값을 요청하지 않으면 첫 페이지(page=1)를 보여주자.
     public String paging(@RequestParam(value="page", required=false, defaultValue="1") int page, Model model) {
-        List<BoardDTO> boardList = boardService.pagingList(page);
-        PageDTO paging = boardService.paging(page);
+        List<BoardDTO> boardList = boardService.pagingList(page); // 해당페이지리스트 호출
+        PageDTO paging = boardService.paging(page);     // 해당페이지의 하단 글의 번호 호출
         model.addAttribute("boardList", boardList);
         model.addAttribute("paging", paging);
         return "board/pagingList";

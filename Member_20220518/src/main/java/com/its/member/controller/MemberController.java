@@ -45,7 +45,7 @@ public class MemberController {
             return "login";
         }
     }
-    @GetMapping("/findAll")
+    @GetMapping("/findAll") // 아래 findAll 안에 Model model = 전체 데이터를 가져가야 하기때문에 사용
     public String findAll(Model model) {
         List<MemberDTO> memberDTOList = memberService.findAll();
         model.addAttribute("memberList", memberDTOList);
@@ -74,7 +74,7 @@ public class MemberController {
     public String updateForm(HttpSession session, Model model) {
         // 로그인을 한 상태기 때문에 세션에 id, memberId가 들어있고
         // 여기서 세션에 있는 id를 가져온다.
-        Long updateId = (Long) session.getAttribute("loginId");
+        Long updateId = (Long) session.getAttribute("loginId");   // getAttribute의 리턴타입을 주기위해 강제 형변환(Long)을 시켜줌.
         System.out.println("updateId = " + updateId);
         // DB에서 해당 회원의 정보를 가져와서 그 정보를 가지고 update.jsp로 이동
         MemberDTO memberDTO = memberService.findById(updateId);

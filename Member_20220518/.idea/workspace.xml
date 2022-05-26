@@ -10,26 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f63d90c7-f427-4017-9c60-5c889f833843" name="Changes" comment="05.20 커밋">
-      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/java/com/its/board/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/java/com/its/board/dto/CommentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/java/com/its/board/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/java/com/its/board/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Board_20220523/src/main/resources/mapper/commentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board_20220523/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Board_20220523/src/main/java/com/its/board/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/src/main/java/com/its/board/controller/BoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Board_20220523/src/main/java/com/its/board/repository/BoardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/src/main/java/com/its/board/repository/BoardRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Board_20220523/src/main/java/com/its/board/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/src/main/java/com/its/board/service/BoardService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Board_20220523/src/main/resources/mapper/boardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/src/main/resources/mapper/boardMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Board_20220523/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/src/main/resources/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/views/board/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/views/board/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Board_20220523/target/Board_20220523/WEB-INF/classes/com/its/board/controller/BoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/target/Board_20220523/WEB-INF/classes/com/its/board/controller/BoardController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Board_20220523/target/Board_20220523/WEB-INF/classes/com/its/board/repository/BoardRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/target/Board_20220523/WEB-INF/classes/com/its/board/repository/BoardRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Board_20220523/target/Board_20220523/WEB-INF/classes/com/its/board/service/BoardService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/target/Board_20220523/WEB-INF/classes/com/its/board/service/BoardService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Board_20220523/target/Board_20220523/WEB-INF/classes/mapper/boardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/target/Board_20220523/WEB-INF/classes/mapper/boardMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Board_20220523/target/classes/com/its/board/controller/BoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/target/classes/com/its/board/controller/BoardController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Board_20220523/target/classes/com/its/board/repository/BoardRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/target/classes/com/its/board/repository/BoardRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Board_20220523/target/classes/com/its/board/service/BoardService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/target/classes/com/its/board/service/BoardService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Board_20220523/target/classes/mapper/boardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/target/classes/mapper/boardMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/views/board/pagingList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/views/board/pagingList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/views/board/save.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/views/board/save.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/its/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/its/member/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/update.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring20220517_01" beforeDir="false" afterPath="$PROJECT_DIR$/../spring20220517_01" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,6 +176,7 @@
       <workItem from="1653294050028" duration="108000" />
       <workItem from="1653349889192" duration="6860000" />
       <workItem from="1653455320367" duration="3031000" />
+      <workItem from="1653523674546" duration="3703000" />
     </task>
     <task id="LOCAL-00001" summary="05.20 커밋">
       <created>1653030686520</created>

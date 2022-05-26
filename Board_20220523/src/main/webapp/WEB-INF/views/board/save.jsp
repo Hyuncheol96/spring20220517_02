@@ -16,11 +16,12 @@
 <div class="container">
     <h2 class="display-4 fw-normal">글작성 페이지</h2>
     <div class="py-5 text-center">
-    <form action="/board/save" method="post">
+    <form action="/board/save" method="post" enctype="multipart/form-data">
         <input class="form-control mb-2" type="text" name="boardWriter" placeholder="작성자"><br>
         <input class="form-control mb-2" type="text" name="boardTitle" placeholder="제목"><br>
         <input class="form-control mb-2" type="text" name="boardPassword" placeholder="비밀번호"><br>
-        <textarea class="form-control" name="boardContents" cols="10" rows="5"></textarea>
+        <textarea class="form-control mb-2" name="boardContents" cols="10" rows="5"></textarea>
+        첨부파일: <input type="file" name="boardFile">
         <input class="btn btn-primary" type="submit" value="작성">
     </form>
     </div>

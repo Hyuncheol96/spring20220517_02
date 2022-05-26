@@ -33,7 +33,7 @@
             <th>삭제</th>
             <th>ajax 조회</th>
         </tr>
-        <c:forEach items="${memberList}" var="member">
+        <c:forEach items="${memberList}" var="member"> <%-- var = 돌릴방법 변수 설정 --%>
             <tr>
                 <td>${member.id}</td>
                 <td>${member.memberId}</td>

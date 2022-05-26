@@ -58,6 +58,7 @@ public class BoardService {
          */
         MultipartFile boardFile = boardDTO.getBoardFile(); // 1.
         String boardFileName = boardFile.getOriginalFilename(); // 2.
+//        String boardFileName = boardDTO.getBoardFile().getOriginalFilename(); // 방법2 1번 2번 지우고 사용 가능
         boardFileName = System.currentTimeMillis() + "-" + boardFileName; // 2-1.
         boardDTO.setBoardFileName(boardFileName); // 3.
         String savePath = "D:\\spring_img\\" + boardFileName; // 4.

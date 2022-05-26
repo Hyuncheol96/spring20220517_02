@@ -16,6 +16,7 @@
 <body>
 <jsp:include page="../layout/header.jsp" flush="false"></jsp:include>
 
+<%-- 검색창 --%>
 <div class="container mt-3"> <%-- mt-3 = 자기 기준으로 위를 3만큼 띄움 --%>
     <form action="/board/search" method="get">
         <select name="searchType">
@@ -52,7 +53,7 @@
 <div class="container">
     <ul class="pagination justify-content-center">
         <%-- c:choose c:when 등을 쓰려면 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> 태그를 써야함 --%>
-        <c:choose>
+        <c:choose> <%-- else if문과 같음 --%>
             <%-- 현재 페이지가 1페이지면 이전 글자만 보여줌 --%>
             <c:when test="${paging.page<=1}">
                 <li class="page-item disabled">
