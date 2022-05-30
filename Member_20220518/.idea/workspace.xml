@@ -10,18 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f63d90c7-f427-4017-9c60-5c889f833843" name="Changes" comment="05.20 커밋">
-      <change beforePath="$PROJECT_DIR$/../Board_20220523/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/.idea/webContexts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Board_20220523/src/main/java/com/its/board/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/src/main/java/com/its/board/controller/BoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Board_20220523/src/main/java/com/its/board/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/src/main/java/com/its/board/service/BoardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Board_20220523/src/main/resources/mapper/boardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/src/main/resources/mapper/boardMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/views/board/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/views/board/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/views/board/pagingList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/views/board/pagingList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/views/board/save.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/src/main/webapp/WEB-INF/views/board/save.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board_20220526/Board_20220526.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board_20220523/target/Board_20220523/WEB-INF/classes/com/its/board/controller/BoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/target/Board_20220523/WEB-INF/classes/com/its/board/controller/BoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board_20220523/target/Board_20220523/WEB-INF/classes/com/its/board/service/BoardService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/target/Board_20220523/WEB-INF/classes/com/its/board/service/BoardService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board_20220523/target/Board_20220523/WEB-INF/classes/mapper/boardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/target/Board_20220523/WEB-INF/classes/mapper/boardMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board_20220523/target/Board_20220523/WEB-INF/views/board/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/target/Board_20220523/WEB-INF/views/board/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board_20220523/target/Board_20220523/WEB-INF/views/board/save.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/target/Board_20220523/WEB-INF/views/board/save.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board_20220523/target/classes/com/its/board/controller/BoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/target/classes/com/its/board/controller/BoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board_20220523/target/classes/com/its/board/service/BoardService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/target/classes/com/its/board/service/BoardService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board_20220523/target/classes/mapper/boardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Board_20220523/target/classes/mapper/boardMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/its/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/its/member/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/save.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/save.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Member_20220518/WEB-INF/classes/com/its/member/controller/MemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Member_20220518/WEB-INF/classes/com/its/member/controller/MemberController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Member_20220518/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Member_20220518/WEB-INF/views/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Member_20220518/WEB-INF/views/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Member_20220518/WEB-INF/views/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Member_20220518/WEB-INF/views/save.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Member_20220518/WEB-INF/views/save.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Member_20220518/WEB-INF/views/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Member_20220518/WEB-INF/views/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/its/member/controller/MemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/its/member/controller/MemberController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring20220517_01" beforeDir="false" afterPath="$PROJECT_DIR$/../spring20220517_01" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +75,11 @@
     &quot;last_opened_file_path&quot;: &quot;D:/development_KHC/source/spring_framework/Member_20220518&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;495fe7c08877205d029bc9d5d17d14f2&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="RunManager">
@@ -176,7 +189,11 @@
       <workItem from="1653294050028" duration="108000" />
       <workItem from="1653349889192" duration="6860000" />
       <workItem from="1653455320367" duration="3031000" />
-      <workItem from="1653523674546" duration="3703000" />
+      <workItem from="1653523674546" duration="4285000" />
+      <workItem from="1653541763866" duration="6600000" />
+      <workItem from="1653607560762" duration="11445000" />
+      <workItem from="1653632414236" duration="11000" />
+      <workItem from="1653868013154" duration="6801000" />
     </task>
     <task id="LOCAL-00001" summary="05.20 커밋">
       <created>1653030686520</created>

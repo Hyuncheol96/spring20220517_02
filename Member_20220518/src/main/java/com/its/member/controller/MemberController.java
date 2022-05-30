@@ -93,7 +93,7 @@ public class MemberController {
         }
     }
     @PostMapping("/duplicate-check")
-    public String duplicateCheck(@RequestParam("memberId") String memberId) {
+    public @ResponseBody String duplicateCheck(@RequestParam("memberId") String memberId) {
         System.out.println("memberId = " + memberId);
         // memberId를 DB에서 중복값이 있는지 없는지 체크하고
         // 없으면 ok, 있으면 no 라는 String 값을 리턴받으세요.

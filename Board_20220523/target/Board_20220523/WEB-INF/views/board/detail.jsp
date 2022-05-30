@@ -31,7 +31,7 @@
         작성일자: ${board.boardCreatedDate} <br>
         조회수: ${board.boardHits} <br>
         <img src="${pageContext.request.contextPath}/upload/${board.boardFileName}"
-             alt="" height="100" width="100">
+             alt="" height="100" width="100"> <%-- 이미지가 안 보일때 대체 화면 or 텍스트 --%>
 
         <button onclick="boardUpdate()">수정</button>
         <button onclick="boardDelete()">삭제</button>
@@ -45,10 +45,10 @@
         <label for="commentWriter">작성자</label>
     </div>
         <div class="form-floating">
-        <input type="text" id="commentContents" class="form-control" placeholder="내용">
-        <label for="commentContents">내용</label><br>
+            <input type="text" id="commentContents" class="form-control" placeholder="내용">
+            <label for="commentContents">내용</label><br>
         </div>
-        <button id="comment-write-btn" class="btn btn-primary">댓글작성</button>
+            <button id="comment-write-btn" class="btn btn-primary">댓글작성</button>
         </div>
 
     <div id="comment-list">

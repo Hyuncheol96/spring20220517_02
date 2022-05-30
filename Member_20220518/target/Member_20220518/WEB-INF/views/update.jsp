@@ -28,7 +28,7 @@
             memberName: <input class="form-control mb-2" type="text" name="memberName" value="${updateMember.memberName}" readonly>
             memberAge: <input class="form-control mb-2" type="text" name="memberAge" value="${updateMember.memberAge}" readonly>
             memberPhone: <input class="form-control mb-2" type="text" name="memberPhone" value="${updateMember.memberPhone}">
-            <input class="btn btn-primary" type="button" onclick="update()" value="정보수정">
+            <input class="btn btn-primary" type="button" onclick="update()" value="정보수정"> <%-- 그냥 button을 사용하면 바로 보내버림 --%>
         </form>
     </div>
 </div>

@@ -40,7 +40,7 @@
         const checkResult = document.getElementById("dup-check-result");
         $.ajax({
             type: "post", // http request method
-            url: "dublicate-check", // 요청주소 (컨트롤러 주소값)
+            url: "duplicate-check", // 요청주소 (컨트롤러 주소값)
             data: {"memberId": memberId}, // 전송하는 파라미터
             dataType: "text", // 리턴받을 데이터 형식
             success: function (result) {
